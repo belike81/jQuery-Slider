@@ -1,0 +1,33 @@
+.container_box {
+  width: 600px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Slider styles
+
+.slider_nav {
+  display: none;
+}
+
+.slider {
+  width: 400px;
+  height: 250px;
+
+  overflow: hidden;
+  padding: 2px;
+  border: 3px solid #eee;
+}
+
+.slider ul {
+  width: 10000px;
+  list-style-type: none;
+}
+
+.slider li {
+  float: left;
+}
